@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightsalmon;
+  height: 100vh;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(4, auto);
+
+  gap: 5px;
+}
+#divi {
+  padding: 3rem;
+  border: solid 1px;
+  border-radius: 20px;
+}
+.div1 {
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-1.jpeg)
+    no-repeat center center/cover;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.div2 {
+  grid-column: 3 / span 3;
+  grid-row: 1 / span 3;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-2.jpeg)
+    no-repeat center center/cover;
+}
+.div3 {
+  grid-column: 6 / span 1;
+  grid-row: 1 / span 1;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-3.jpeg)
+    no-repeat center center/cover;
+}
+.div4 {
+  grid-column: 7 / span 2;
+  grid-row: 1 / span 2;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-4.jpeg)
+    no-repeat center center/cover;
+}
+.div5 {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 3;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-5.jpeg)
+    no-repeat center center/cover;
+}
+.div6 {
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 3;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-6.jpeg)
+    no-repeat center center/cover;
+}
+.div7 {
+  grid-column: 5 / span 1;
+  grid-row: 4 / span 2;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-7.jpeg)
+    no-repeat center center/cover;
+}
+.div8 {
+  grid-column: 6 / span 1;
+  grid-row: 2 / span 1;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-8.jpeg)
+    no-repeat center center/cover;
+}
+.div9 {
+  grid-column: 6 / span 1;
+  grid-row: 3 / span 3;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-9.jpeg)
+    no-repeat center center/cover;
+}
+.div10 {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 2;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-10.jpeg)
+    no-repeat center center/cover;
+}
+.div11 {
+  grid-column: 2 / span 2;
+  grid-row: 7 / span 2;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-11.jpeg)
+    no-repeat center center/cover;
+}
+.div12 {
+  grid-column: 4 / span 2;
+  grid-row: 7 / span 1;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-12.jpeg)
+    no-repeat center center/cover;
+}
+.div13 {
+  grid-column: 7 / span 2;
+  grid-row: 3 / span 3;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-13.jpeg)
+    no-repeat center center/cover;
+}
+.div14 {
+  grid-column: 6 / span 3;
+  grid-row: 6 / span 2;
+  background: url(/html/exercises/grid.pic/grid-gallery-master/images/gal-14.jpeg)
+    no-repeat center center/cover;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: lightskyblue;
+  }
+}

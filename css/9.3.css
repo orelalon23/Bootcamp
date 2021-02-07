@@ -1,0 +1,32 @@
+
+.divi{
+    background-color: pink;
+    border: solid 2px black;
+    position: absolute;
+}
+#div1{
+    width: 180px;
+    height: 140px;
+    top:10px;
+    left: 100px;
+
+
+}
+#div2{
+    width: 140px;
+    height: 150px;
+    left: 200px;
+    top: 100px;
+}
+#div3{
+    width: 400px;
+    height: 100px;
+    top: 200px;
+    left: 100px;
+}
+
+#div4{
+    width: 80px;
+    height: 350px;
+    left: 400px;
+}

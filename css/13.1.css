@@ -1,0 +1,12 @@
+h1 {
+  font-size: 6vw;
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  padding-top: 25px;
+  margin: auto;
+}

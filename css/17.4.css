@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background: pink;
+}
+h1 {
+  font-size: 50px;
+  text-align: left;
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+}
+.border {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid lightseagreen;
+  position: relative;
+}
+
+.border::before,
+.border::after {
+  content: "";
+  position: absolute;
+  background: pink;
+}
+
+.border::before {
+  left: 2rem;
+  right: 2rem;
+  top: -0.4rem;
+  bottom: -0.5rem;
+}
+.border::after {
+  left: -0.3rem;
+  right: -0.3rem;
+  top: 2rem;
+  bottom: 2rem;
+}

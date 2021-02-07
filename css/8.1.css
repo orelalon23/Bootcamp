@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(162, 162, 245);
+}
+
+button{
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 20px;
+}
+.full-s{
+    background-color:limegreen;
+    color:white;
+    border: solid limegreen;
+}
+.full-s:hover{
+    background-color: green;
+}
+.full-r{
+    background-color:lightsalmon;
+    color:white;
+    border: solid lightsalmon;
+    border-radius: 50px;
+}
+.full-r:hover{
+    background-color: rgb(185, 74, 10);
+}
+.blank-s{
+    color: white;
+    background-color: unset;
+    border: solid limegreen;
+}
+.blank-s:hover{
+    background-color: limegreen;
+}
+.blank-r{
+    color: white;
+    background-color: unset;
+    border: solid lightsalmon;
+    border-radius: 50px;
+}
+.blank-r:hover{
+    background-color: lightsalmon;
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.some-text {
+  width: 500px;
+  height: 100vh;
+  background-color: lightslategrey;
+  font-size: 20px;
+}
+::selection {
+  color: blue;
+}

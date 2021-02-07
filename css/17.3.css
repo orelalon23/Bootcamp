@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.box {
+  height: 600px;
+  width: 600px;
+  background-color: lightseagreen;
+}
+.box::after {
+  content: "";
+  background-color: palevioletred;
+  height: 600px;
+  width: 300px;
+  position: absolute;
+  padding: 100px;
+  margin: 200px;
+}
+.box:hover::after {
+  background-color: pink;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1800px;
+  margin: auto;
+}
+.headline {
+  line-height: 2;
+  font-size: 2rem;
+}
+.img {
+  float: right;
+}
+
+.my-info {
+  line-height: 1.2;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+.follow {
+  font-size: 60px;
+  padding: 25px;
+}
